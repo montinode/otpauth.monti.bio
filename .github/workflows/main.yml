@@ -25,7 +25,7 @@ jobs:
         os: ["ubuntu-latest", "windows-latest", "macos-latest"]
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Use Node.js lts/*"
         uses: "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e"
         with:
@@ -70,7 +70,7 @@ jobs:
         os: ["ubuntu-latest", "windows-latest", "macos-latest"]
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
@@ -102,7 +102,7 @@ jobs:
         os: ["ubuntu-latest", "windows-latest", "macos-latest"]
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
@@ -133,7 +133,7 @@ jobs:
         os: ["ubuntu-latest", "macos-latest"]
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
@@ -164,7 +164,7 @@ jobs:
         os: ["ubuntu-latest"]
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
@@ -196,7 +196,7 @@ jobs:
         os: ["ubuntu-latest", "windows-latest", "macos-latest"]
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
@@ -229,7 +229,7 @@ jobs:
       id-token: "write"
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
@@ -260,7 +260,7 @@ jobs:
       id-token: "write"
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+        uses: "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
       - name: "Remove dist directory"
         shell: "bash"
         run: "rm -rf ./dist/"
